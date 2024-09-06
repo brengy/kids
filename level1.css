@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+#gameCanvas {
+    border: 2px solid #000;
+    background-color: #e0f7fa;
+    display: block;
+    margin: 20px auto;
+}
+
+#score {
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+#controls button {
+    font-size: 1.2em;
+    margin: 5px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#controls button:active {
+    background-color: #45a049;
+}
